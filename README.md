@@ -1,10 +1,11 @@
 # react-starwar-application
 ## Description
-This is simple react application.It has 2 pages
+This is simple react application with login and search page.
 ### Login page
-It Allows user to login as character from [STAR WARS](https://swapi.co/api/people) using the character name as the username and birth year as password
+Allows user to login as character from [STAR WARS](https://swapi.co/api/people) using the character name as the USERNAME and birth year as PASSWORD
 ### Search page
-A type-along search which searches for planets and lists them in components (eg: Card) and planet name font size is relative to planet  population.
+ - A TYPE-ALONG SEARCH for planets which gives list of cards with planet details(name, population etc.,). 
+ - Planet name font size in the card is relative to planet population.
 ##### Only the user 'Luke Skywalker' is able to make more than 10 searches in a minute.
 ## Installation
 Once you have cloned this repository, enter the following commands.
