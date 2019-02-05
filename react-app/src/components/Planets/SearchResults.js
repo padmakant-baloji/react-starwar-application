@@ -27,7 +27,8 @@ export default class SearchResults extends Component {
                     data.length <= 0 ? (<div><h1>No data found :-(</h1></div>) : (
                         <div className="row">
                             {data.map((x, index) => (
-                                x.population == "unknown" ? (size = size) : (index > 1 && x.population === data[index - 1].population ? size = size : size = size + 2),
+							
+                                size = x.population == "unknown" ? 12 : (index > 1 && x.population === data[index-1].population ?  size :  size + 5),
                                 <div className="col-3 col-md-3" key={index}>
                                     <Card style={{ height: "200px", width: "250px", margin: "10px" }}>
                                         {/* <CardHeader title={x.name}
